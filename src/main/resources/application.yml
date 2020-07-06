@@ -1,0 +1,17 @@
+server:
+  port: 9191
+spring:
+  datasource:
+    url: jdbc:postgresql://user-uaa-test.chp81jh9tqob.sa-east-1.rds.amazonaws.com:5432/authentication
+    username: postgres
+    password: devpassword
+    driver-class-name: org.postgresql.Driver
+    initialization-mode: always
+    testWhileIdle: true
+    test-on-borrow: true
+  jpa:
+    open-in-view: true
+    
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
