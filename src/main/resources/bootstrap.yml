@@ -1,0 +1,11 @@
+
+spring:
+  application:
+    name: uaa
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:8888
+      username: root
+      password: config#rd2020Pla7af0rmA!$
